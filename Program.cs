@@ -16,7 +16,7 @@ namespace SenacBiblioteca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Atividade());
+            Application.Run(new Form1());
         }
     }
 }

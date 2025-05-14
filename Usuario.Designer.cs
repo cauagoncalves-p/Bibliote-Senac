@@ -100,7 +100,6 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 15;
-          
             // 
             // lblNome
             // 
@@ -163,7 +162,7 @@
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(75, 23);
             this.btnEditar.TabIndex = 27;
-            this.btnEditar.Text = "Editar";
+            this.btnEditar.Text = "Atualizar";
             this.btnEditar.UseVisualStyleBackColor = true;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
@@ -187,6 +186,7 @@
             this.Controls.Add(this.txtIdUsuario);
             this.Controls.Add(this.lblIdUsuario);
             this.Name = "Usuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuario";
             this.ResumeLayout(false);
             this.PerformLayout();

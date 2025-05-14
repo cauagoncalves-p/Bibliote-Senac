@@ -14,6 +14,7 @@ namespace SenacBiblioteca
 {
     public partial class Funcionario : Form
     {
+       
         private void AtualizaraBanco()
         {
             lboFuncionarios.Items.Clear();
@@ -158,7 +159,7 @@ namespace SenacBiblioteca
             string email = txtEmail.Text;
             DateTime ultimoLogin = Convert.ToDateTime(txtUltimoLogin.Text);
             string nomeUsuario = txtNomeUsuario.Text;
-            string nomeCompleto = txtNomeCompleto.Text;  
+            string nomeCompleto = txtNomeCompleto.Text;
             string senha = txtSenha.Text;
             bool ativo = Convert.ToBoolean(txtAtivo.Text);
             DateTime cadastro = DateTime.Now;
@@ -178,12 +179,6 @@ namespace SenacBiblioteca
             LimparCampos();
 
             MessageBox.Show("Atualizado com sucesso", "Pronto", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-        }
-
-        private void Funcionario_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

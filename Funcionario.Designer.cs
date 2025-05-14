@@ -198,7 +198,7 @@
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(75, 23);
             this.btnEditar.TabIndex = 35;
-            this.btnEditar.Text = "Editar";
+            this.btnEditar.Text = "Atualizar";
             this.btnEditar.UseVisualStyleBackColor = true;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
@@ -266,8 +266,8 @@
             this.Controls.Add(this.txtIdFuncionario);
             this.Controls.Add(this.lblIdFuncionario);
             this.Name = "Funcionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Funcionario";
-            this.Load += new System.EventHandler(this.Funcionario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

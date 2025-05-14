@@ -14,6 +14,9 @@ namespace SenacBiblioteca
 {
     public partial class Usuario : Form
     {
+        private UsuariosTableAdapter usuarios;
+        private UsuariosRow usuario;
+
         private void AtualizaraBanco()
         {
             lboUsuario.Items.Clear();
@@ -121,5 +124,8 @@ namespace SenacBiblioteca
 
             MessageBox.Show("Cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+       
+        
     }
 }

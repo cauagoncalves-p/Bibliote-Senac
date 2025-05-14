@@ -36,6 +36,9 @@
             this.lblFuncionario = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.btnEmprestar = new System.Windows.Forms.Button();
+            this.btnLivro = new System.Windows.Forms.Button();
+            this.btnFuncionario = new System.Windows.Forms.Button();
+            this.btnUsuario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lboRelacao
@@ -108,11 +111,44 @@
             this.btnEmprestar.UseVisualStyleBackColor = true;
             this.btnEmprestar.Click += new System.EventHandler(this.btnEmprestar_Click);
             // 
+            // btnLivro
+            // 
+            this.btnLivro.Location = new System.Drawing.Point(12, 295);
+            this.btnLivro.Name = "btnLivro";
+            this.btnLivro.Size = new System.Drawing.Size(73, 24);
+            this.btnLivro.TabIndex = 8;
+            this.btnLivro.Text = "Livro";
+            this.btnLivro.UseVisualStyleBackColor = true;
+            this.btnLivro.Click += new System.EventHandler(this.btnLivro_Click);
+            // 
+            // btnFuncionario
+            // 
+            this.btnFuncionario.Location = new System.Drawing.Point(93, 295);
+            this.btnFuncionario.Name = "btnFuncionario";
+            this.btnFuncionario.Size = new System.Drawing.Size(73, 24);
+            this.btnFuncionario.TabIndex = 9;
+            this.btnFuncionario.Text = "Funcionario";
+            this.btnFuncionario.UseVisualStyleBackColor = true;
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
+            // 
+            // btnUsuario
+            // 
+            this.btnUsuario.Location = new System.Drawing.Point(180, 295);
+            this.btnUsuario.Name = "btnUsuario";
+            this.btnUsuario.Size = new System.Drawing.Size(73, 24);
+            this.btnUsuario.TabIndex = 10;
+            this.btnUsuario.Text = "Usuario";
+            this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 450);
+            this.Controls.Add(this.btnUsuario);
+            this.Controls.Add(this.btnFuncionario);
+            this.Controls.Add(this.btnLivro);
             this.Controls.Add(this.btnEmprestar);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lblFuncionario);
@@ -142,6 +178,9 @@
         private System.Windows.Forms.Label lblFuncionario;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Button btnEmprestar;
+        private System.Windows.Forms.Button btnLivro;
+        private System.Windows.Forms.Button btnFuncionario;
+        private System.Windows.Forms.Button btnUsuario;
     }
 }
 

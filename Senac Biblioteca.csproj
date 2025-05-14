@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Atividade.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Atividade.Designer.cs">
-      <DependentUpon>Atividade.cs</DependentUpon>
-    </Compile>
     <Compile Include="BibliotecaDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -95,9 +89,6 @@
     <Compile Include="Usuario.Designer.cs">
       <DependentUpon>Usuario.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Atividade.resx">
-      <DependentUpon>Atividade.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Emprestando.resx">
       <DependentUpon>Emprestando.cs</DependentUpon>
     </EmbeddedResource>

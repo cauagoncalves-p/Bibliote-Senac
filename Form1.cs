@@ -168,5 +168,29 @@ namespace SenacBiblioteca
                 lboRelacao.Items.Add(texto);
             }
         }
+
+        private void btnLivro_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Livros livros = new Livros();
+            livros.ShowDialog();
+            this.Show();
+        }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Funcionario funcionario = new Funcionario();
+            funcionario.ShowDialog();
+            this.Show();
+        }
+
+        private void btnUsuario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Usuario usuario = new Usuario();
+            usuario.ShowDialog();
+            this.Show();
+        }
     }
 }

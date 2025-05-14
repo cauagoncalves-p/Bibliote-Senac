@@ -2048,8 +2048,9 @@ namespace SenacBiblioteca {
 
             public override string ToString()
             {
-                return $"{this.Titulo}";
+                return this.LivroID.ToString() + ";" + this.Titulo + ";" + this.Genero + ";" + this.Autor;
             }
+        
             public string Titulo {
                 get {
                     return ((string)(this[this.tableLivros.TituloColumn]));
